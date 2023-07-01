@@ -1,0 +1,75 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# Date created = 00:57:38  June 26, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		msrv32_instruction_decoder_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY msrv32_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:57:38  JUNE 26, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name VERILOG_FILE wr_en_generator.v
+set_global_assignment -name VERILOG_FILE mtvec_reg.v
+set_global_assignment -name VERILOG_FILE mtval_reg.v
+set_global_assignment -name VERILOG_FILE mstatus_reg.v
+set_global_assignment -name VERILOG_FILE msrv32_wb_mux_sel_unit.v
+set_global_assignment -name VERILOG_FILE msrv32_top.v
+set_global_assignment -name VERILOG_FILE msrv32_store_unit.v
+set_global_assignment -name VERILOG_FILE msrv32_reg_block_2.v
+set_global_assignment -name VERILOG_FILE msrv32_reg_block_1.v
+set_global_assignment -name VERILOG_FILE msrv32_pc.v
+set_global_assignment -name VERILOG_FILE msrv32_machine_control.v
+set_global_assignment -name VERILOG_FILE msrv32_lu.v
+set_global_assignment -name VERILOG_FILE msrv32_integer_file.v
+set_global_assignment -name VERILOG_FILE msrv32_immediate_adder.v
+set_global_assignment -name VERILOG_FILE msrv32_img.v
+set_global_assignment -name VERILOG_FILE msrv32_dec.v
+set_global_assignment -name VERILOG_FILE msrv32_csr_file.v
+set_global_assignment -name VERILOG_FILE msrv32_bu.v
+set_global_assignment -name VERILOG_FILE msrv32_alu.v
+set_global_assignment -name VERILOG_FILE ms_riscv32_mp.v
+set_global_assignment -name VERILOG_FILE misa_and_pre_data.v
+set_global_assignment -name VERILOG_FILE mip_reg.v
+set_global_assignment -name VERILOG_FILE mie_reg.v
+set_global_assignment -name VERILOG_FILE mepc_and_mscratch_reg.v
+set_global_assignment -name VERILOG_FILE mcause_reg.v
+set_global_assignment -name VERILOG_FILE machine_counter_setup.v
+set_global_assignment -name VERILOG_FILE machine_counter.v
+set_global_assignment -name VERILOG_FILE data_wr_mux_unit.v
+set_global_assignment -name VERILOG_FILE csr_data_mux_unit.v
+set_global_assignment -name VERILOG_FILE msrv32_instruction_decoder.v

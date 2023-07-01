@@ -1,0 +1,8 @@
+Info (10281): Verilog HDL Declaration information at msrv32_top.v(36): object "pc" differs only in case from object "PC" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/msrv32_top.v Line: 36
+Warning (10268): Verilog HDL information at msrv32_integer_file.v(26): always construct contains both blocking and non-blocking assignments File: C:/Users/HP/Desktop/PassedTestCase/msrv32_integer_file.v Line: 26
+Info (10281): Verilog HDL Declaration information at msrv32_csr_file.v(52): object "mie_reg" differs only in case from object "MIE_REG" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/msrv32_csr_file.v Line: 52
+Info (10281): Verilog HDL Declaration information at msrv32_csr_file.v(65): object "mip_reg" differs only in case from object "MIP_REG" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/msrv32_csr_file.v Line: 65
+Info (10281): Verilog HDL Declaration information at ms_riscv32_mp.v(39): object "pc" differs only in case from object "PC" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/ms_riscv32_mp.v Line: 39
+Info (10281): Verilog HDL Declaration information at ms_riscv32_mp.v(59): object "wr_en" differs only in case from object "WR_EN" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/ms_riscv32_mp.v Line: 59
+Info (10281): Verilog HDL Declaration information at ms_riscv32_mp.v(73): object "wb_mux" differs only in case from object "WB_MUX" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/ms_riscv32_mp.v Line: 73
+Info (10281): Verilog HDL Declaration information at machine_counter_setup.v(12): object "MCOUNTINHIBIT" differs only in case from object "mcountinhibit" in the same scope File: C:/Users/HP/Desktop/PassedTestCase/machine_counter_setup.v Line: 12

@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Mon Jun 26 18:56:15 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : msrv32_instruction_decoder
+Top-level Entity Name : msrv32_top
+Family : MAX V
+Total logic elements : 5,047
+Total pins : 239
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
